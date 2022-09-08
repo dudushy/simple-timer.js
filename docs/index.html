@@ -3,30 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>template-web</title>
+  <title>simple-timer.js</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
     <h1>
-      <a href="https://github.com/dudushy/template-web" target="_blank">template-web</a>
+      <a href="https://github.com/dudushy/simple-timer.js" target="_blank">simple-timer.js</a>
     </h1>
   </header>
   <hr>
 
-  <div>
-    <h1>Hello World!</h1>
-
-    <button style="background-color: var(--primary)">primary</button>
-    <button style="background-color: var(--secondary)">secondary</button>
-    <button style="background-color: var(--tertiary)">tertiary</button>
-    <button style="background-color: var(--success)">success</button>
-    <button style="background-color: var(--warning)">warning</button>
-    <button style="background-color: var(--danger)">danger</button>
-    <button style="background-color: var(--dark)">dark</button>
-    <button style="background-color: var(--medium)">medium</button>
-    <button style="background-color: var(--light)">light</button>
+  <div id="content">
+    <h1 id="timer-result"></h1>
+    <button id="timer-button" onclick="toggleTimer()">START</button>
   </div>
 
   <hr>
