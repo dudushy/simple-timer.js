@@ -1,2 +1,2 @@
-# [template-web](https://github.com/dudushy/template-web/)
-Template for Web projects.
+# [simple-timer.js](https://github.com/dudushy/simple-timer.js/)
+A simple timer.
