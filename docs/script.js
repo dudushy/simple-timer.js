@@ -13,7 +13,7 @@ function wait(ms) {
 }
 
 function toggleTimer() {
-  console.log("[simple-timer#toggleTimer] isTimerActive", isTimerActive);
+  console.log("[simple-timer#toggleTimer] (BEFORE) isTimerActive", isTimerActive);
 
   const button = document.getElementById("timer-button");
   const result = document.getElementById("timer-result");
@@ -27,6 +27,8 @@ function toggleTimer() {
     button.innerText = "START";
     result.innerText = "";
   }
+  
+  console.log("[simple-timer#toggleTimer] (AFTER) isTimerActive", isTimerActive);
 }
 
 async function runTimer() {
